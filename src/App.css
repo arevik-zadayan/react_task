@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.App {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+.loader {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    padding: 40px 0;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        max-width: 90%;
+    }
+}

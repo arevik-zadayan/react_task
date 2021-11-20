@@ -1,0 +1,60 @@
+header {
+    background-color: #0070ff;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.nav_brand h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.title_bar {
+    background-color: #414141;
+    padding: 15px 0;
+    box-shadow: 0px 4px 7px 0px #000000;
+}
+
+.title_bar h2 {
+    margin: 0;
+    color: #ffffff;
+}
+
+.nav_item a {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.nav_item button {
+    background-color: #414141;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav_item {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .nav_brand h1 {
+        font-size: 30px;
+    }
+}
