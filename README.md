@@ -18,4 +18,7 @@ You will also see any lint errors in the console.
 I used React context for passing the data,
 React-router for switching pages,
 api requests with fetch
+## Working hours
+3hour
+
 
